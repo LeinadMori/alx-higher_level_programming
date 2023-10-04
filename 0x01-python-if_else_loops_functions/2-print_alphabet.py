@@ -1,4 +1,11 @@
 #!/usr/bin/python3
 
-for i in range(ord('a'), ord('z') + 1):
-    print(chr(i), end='')
+# Initialize a string containing the lowercase alphabet
+alphabet = "abcdefghijklmnopqrstuvwxyz"
+
+# Loop through each character in the alphabet and print it
+for char in alphabet:
+    print(char, end='')
+
+# Print a newline character at the end to match the expected output
+print()
