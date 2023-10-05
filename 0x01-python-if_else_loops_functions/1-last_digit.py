@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 import random
 
-# Generate a random number between -10000 and 10000
 number = random.randint(-10000, 10000)
 
 # Extract the last digit of the number
