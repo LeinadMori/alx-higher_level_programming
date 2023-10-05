@@ -8,5 +8,5 @@ for letter in 'abcdefghijklmnopqrstuvwxyz':
     if letter != 'e' and letter != 'q':
         alphabet += letter
 
-# Use a single print statement to print the entire alphabet without newlines
-print(f"{alphabet}")
+# Use a single print statement with .format() to print the entire alphabet without newlines
+print("{}".format(alphabet))
