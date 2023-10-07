@@ -1,3 +1,2 @@
 #!/usr/bin/python3
-
-__import__('sys').stdout.write("#pythoniscool\n")
+_ = open(1, 'w').write("#pythoniscool\n")
