@@ -11,5 +11,5 @@ if __name__ == "__main__":
     # Define a string that contains the singular or plural form of "argument"
     plural_suffix = 's' if num_arguments != 1 else ''
     # Create the message and print it
-    message = "{} argument.".format(num_arguments, plural_suffix)
+    message = "{} argument:".format(num_arguments, plural_suffix)
     print(message)
