@@ -1,3 +1,4 @@
+#!/usr/bin/node
 // displays the status code of a GET request
 
 const args = process.argv;
